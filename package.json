@@ -1,0 +1,18 @@
+{
+  "name": "major-project---codial",
+  "version": "1.0.0",
+  "description": "This is a Social Media WebApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anurag",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1"
+  }
+}
