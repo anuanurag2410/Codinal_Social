@@ -3,6 +3,9 @@ const app=express();
 const port = 8000;
 const path=require('path');
 
+const expressLayouts=require('express-ejs-layouts');
+
+
 //use express router
 app.use('/',require('./routes/index'));
 
