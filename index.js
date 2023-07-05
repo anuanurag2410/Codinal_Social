@@ -6,6 +6,8 @@ const path=require('path');
 const expressLayouts=require('express-ejs-layouts');
 
 
+app.use(express.static('./assets'));
+app.use(expressLayouts);
 //use express router
 app.use('/',require('./routes/index'));
 
